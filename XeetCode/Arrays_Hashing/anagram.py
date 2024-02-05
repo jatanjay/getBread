@@ -80,6 +80,7 @@ class Solution:
 
         for char in s:
             char_count[char] = char_count.get(char, 0) + 1
+            ## if it doesn't exist get sets it to zero and if it does, adds 1
 
         for char in t:
             if char not in char_count or char_count[char] == 0:
