@@ -38,3 +38,28 @@ class Solution:
             right *= nums[i]
 
         return answer
+
+
+"""
+idea 
+
+
+from left, ans[i] = everything on the left
+for i = 0, 1
+and then, 1 =* num[i]
+
+same for right
+only thing now is, we need multiply it with the left stored stuff as well
+
+
+
+left = [x x x x]
+        | | | |
+        * * * *    
+right = [x x x x]
+this is optimal, since we are are not storing and creating 2 arrays called left, right
+
+hence in O(N)
+
+
+"""
